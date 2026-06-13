@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+.container{
+    width:50%;
+    margin:auto;
+    margin-top:50px;
+    text-align:center;
+}
+
+.form-box{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:12px;
+    margin-top:15px;
+}
+
+button{
+    margin-top:20px;
+    padding:12px 25px;
+    background:blue;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    background:darkblue;
+}
